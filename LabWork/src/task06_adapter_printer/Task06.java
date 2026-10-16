@@ -1,6 +1,6 @@
 package task06_adapter_printer;
 
-public class Main {
+public class Task06 {
     public static void main(String[] args) {
         ModernPrinter p = new PrinterAdapter(new DotMatrixPrinter());
         p.printDocument("My name is Ruslan");

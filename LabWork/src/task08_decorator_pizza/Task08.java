@@ -1,6 +1,6 @@
 package task08_decorator_pizza;
 
-public class Main {
+public class Task08 {
     public static void main(String[] args) {
         Pizza p = new Margherita();
         p = new ExtraCheese(p);
